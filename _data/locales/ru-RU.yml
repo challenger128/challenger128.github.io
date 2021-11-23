@@ -1,0 +1,89 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Пост
+  category: Категория
+  tag: Тэг
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Домой
+  categories: Категории
+  tags: Тэги
+  archives: Архивы
+  about: Обо мне
+
+# the text displayed in the search bar & search results
+search:
+  hint: Поиск
+  cancel: Отмена
+  no_results: Уупс! Ничего не найдено.
+
+panel:
+  lastmod: Последние обновления
+  trending_tags: Тренды
+  toc: Навигация
+
+#  The liquid date format › http://strftime.net/
+date_format:
+  tooltip: '%F, %R %z'
+  post:
+    long: '%F'
+    short: '%d-%m'
+    archive_month: '%m'
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Этот пост лицензирован под :LICENSE_NAME автором.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Некоторые права защищены.
+  verbose: >-
+    За исключением случаев, когда указано иное, записи в блоге на этом сайте лицензированы в соответствии с лицензией Creative Commons Attribution 4.0 International (CC BY 4.0), выданной автором.
+
+meta: Питается от :PLATFORM с :THEME темой.
+
+not_found:
+  statment: Извините, мы потеряли этот URL-адрес или он указывает на то, чего не существует.
+  hint_template: :HEAD_BAK чтобы попробовать найти его на :ARCHIVES_PAGE.
+  head_back: Возвращайтесь домой
+  archives_page: странице архивов
+
+# ----- Posts related labels -----
+
+post:
+  published: 'on'
+  updated: Обновлен
+  timeago:
+    day: день назад
+    hour: час назад
+    minute: минуту назад
+    just_now: только что
+  words: слова
+  pageview_measure: просмотры
+  read_time:
+    unit: min
+    prompt: read
+  relate_posts: Дальнейшее чтение
+  share: Поделиться
+  button:
+    next: Следующий
+    previous: Предыдущий
+    copy_code:
+      succeed: Скопировано！
+    share_link:
+      title:  Скопировать ссылку
+      succeed: Ссылка успешно скопирована
+  # pinned prompt of posts list on homepage
+  pin_prompt: Закрепленные
+
+# categories page
+categories:
+  category_measure: категории
+  post_measure: посты
