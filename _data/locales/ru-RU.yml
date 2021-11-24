@@ -13,7 +13,7 @@ tabs:
   home: Домой
   categories: Категории
   tags: Тэги
-  archives: Архивы
+  archives: Архив
   about: Обо мне
 
 # the text displayed in the search bar & search results
@@ -53,7 +53,7 @@ not_found:
   statment: Извините, мы потеряли этот URL-адрес или он указывает на то, чего не существует.
   hint_template: :HEAD_BAK чтобы попробовать найти его на :ARCHIVES_PAGE.
   head_back: Возвращайтесь домой
-  archives_page: странице архивов
+  archives_page: странице архива
 
 # ----- Posts related labels -----
 
@@ -68,8 +68,8 @@ post:
   words: слова
   pageview_measure: просмотры
   read_time:
-    unit: min
-    prompt: read
+    unit: ′
+    prompt: чтения
   relate_posts: Дальнейшее чтение
   share: Поделиться
   button:
@@ -81,7 +81,7 @@ post:
       title:  Скопировать ссылку
       succeed: Ссылка успешно скопирована
   # pinned prompt of posts list on homepage
-  pin_prompt: Закрепленные
+  pin_prompt: Закреплен
 
 # categories page
 categories:
