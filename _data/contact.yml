@@ -7,7 +7,14 @@
   type: twitter
   icon: 'fab fa-twitter'
 -
+  type: vk
+  icon: 'fab fa-vk'
+  url: 'https://vk.com/danzor'
 -
+  type: telegram
+  icon: 'fab fa-telegram'
+  url: 'https://t.me/rgbvpn'  
+-    
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
@@ -15,12 +22,6 @@
   type: rss
   icon: 'fas fa-rss'
   noblank: true
-
--
-  type: vk
-  icon: 'fab fa-vk'
-  url: 'https://vk.com/danzor'
--
 # Uncomment and complete the url below to enable more contact options
 # -
 #   type: mastodon
