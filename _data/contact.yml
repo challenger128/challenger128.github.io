@@ -7,10 +7,6 @@
   type: twitter
   icon: 'fab fa-twitter'
 -
-  type: vk
-  icon: 'fab fa-vk'
-  url: 'https://vk.com/danzor'
--
   type: telegram
   icon: 'fab fa-telegram'
   url: 'https://t.me/rgbvpn'  
