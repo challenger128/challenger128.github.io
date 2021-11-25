@@ -58,12 +58,12 @@ not_found:
 # ----- Posts related labels -----
 
 post:
-  published: 'on'
+  published: опубликовал
   updated: Обновлен
   timeago:
-    day: день назад
-    hour: час назад
-    minute: минуту назад
+    day: несколько дней назад
+    hour: несколько часов назад
+    minute: несколько минут назад
     just_now: только что
   words: слова
   pageview_measure: просмотры
