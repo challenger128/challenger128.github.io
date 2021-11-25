@@ -61,9 +61,9 @@ post:
   published: опубликовал
   updated: Обновлен
   timeago:
-    day: несколько дней назад
-    hour: несколько часов назад
-    minute: несколько минут назад
+    day: день назад
+    hour: час назад
+    minute: минуту назад
     just_now: только что
   words: слова
   pageview_measure: просмотры
