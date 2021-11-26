@@ -10,7 +10,7 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: ru-RU
+lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Yekaterinburg
@@ -20,11 +20,11 @@ timezone: Asia/Yekaterinburg
 
 title: challenger128                          # the main title
 
-tagline: Записки олимпиадника   # it will display as the sub-title
+tagline: yet another boring blog   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Мой личный блог и посовместительству портфолио,
-  здесь вы увидите статьи на различные темы.
+  My personal blog and CV,
+  Here you can read some tech articles.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://challenger128.github.io'
@@ -38,7 +38,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Даниил
+  name: Daniil
   email: dchallenger128@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
