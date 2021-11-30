@@ -15,7 +15,7 @@ _That's when I thought about it_
 
 ## Learn more about owner
 
-My name is Daniil Kalaida and I'm 19 y.o.
+My name is Daniil Kalayda and I'm 19 y.o.
 
 ![My Photo](/assets/img/sample/author.jpeg){: width="150" height="200" .shadow .right}
 
