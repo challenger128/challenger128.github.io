@@ -27,7 +27,7 @@ My name is Daniil Kalayda and I'm 19 y.o.
     - [Timus](https://acm.timus.ru/author.aspx?id=259268)
 - I'm also interested in this fields
     - Algorithms and Data Structures
-    - С++, Python
+    - С++, Python and C#
     - [Linux](https://wiki.archlinux.org/title/Main_page_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))
 - Currently looking for an interesting job
     
