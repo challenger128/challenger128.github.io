@@ -1,0 +1,16 @@
+---
+title: Getting Outlook calendars with Python
+date: 2021-12-07 12:25:00 +0500
+categories: [Programming, Python]
+tags: [microsoft 365, outlook, personal experience]
+pin: false
+comments: true
+---
+
+In this post, I would like to share my experience that I received while working on a university project. 
+
+## A little bit about my project
+
+The work in this project was close to real. We had a [customer](https://www.parma.ru/) and a task: to develop a telegram bot.
+
+
