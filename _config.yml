@@ -58,7 +58,7 @@ google_analytics:
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint: 'https://blogviews.appspot.com/query?id=ag16bG1-YmxvZ3ZpZXdzchULEghBcGlRdWVyeRiAgICYlKaDCgw' 
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+    cache_path: false       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
