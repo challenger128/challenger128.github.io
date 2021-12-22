@@ -1,6 +1,6 @@
 ---
 title: Start your own blog on Github Pages 
-date: 2021-12-22 13:00:00 +0500
+date: 2021-12-23 01:10:00 +0500
 categories: [Tutorial, Github Pages]
 tags: [blog, github-pages, personal blog, jekyll]
 pin: false
@@ -147,4 +147,3 @@ bundle exec jekyll s
 > The website will be available on `127.0.0.1:4000`
 
 Make sure that you've installed [`Jekyll`](https://jekyllrb.com/docs/installation/). 
-
