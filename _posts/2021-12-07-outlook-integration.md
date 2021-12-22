@@ -17,7 +17,7 @@ _I'm working on this project_
 The work in this project was close to real. We had a [customer](https://www.parma.ru/) and a nice task: to develop a telegram bot integrated with the Outlook calendar, which helps an HR manager to hire employees.
 My role was a Python Developer and my task was to write a small service which can fetch and modify events from someone's Outlook calendar in organization.
 
-![Microsoft Graph](/assets/img/sample/microsoft.png){: .shadow}
+![Microsoft Graph](/assets/img/sample/outlook-integration/microsoft.png){: .shadow}
 _Microsoft Graph_
 
 In order to complete the task I decided to use [O365 Python library](https://github.com/O365/python-o365), which makes communicating with Microsoft Outlook API very straight forward.
@@ -29,7 +29,7 @@ An easy way to get an organization with all Office 365 apps licenses is joining 
 It's free for 90 days. You will be required to register account if you don't have one. Then fill some information about your company. 
 At the end of setting, I recommend you to choose `Instant sandbox` just to save time and focus on future development.
 
-![Choice](/assets/img/sample/choice.png){: .shadow}
+![Choice](/assets/img/sample/outlook-integration/choice.png){: .shadow}
 _Choice_
 
 Also, on the [dashboard](https://developer.microsoft.com/en-us/microsoft-365/profile) you can find some interesting articles, quick starts and tutorials.
@@ -38,29 +38,29 @@ Also, on the [dashboard](https://developer.microsoft.com/en-us/microsoft-365/pro
 
 Now you should [sign in](https://portal.azure.com) with admin account of your organization, then open the `App registrations`:
 
-![App registrations](/assets/img/sample/app_registrations.png){: .shadow}
+![App registrations](/assets/img/sample/outlook-integration/app_registrations.png){: .shadow}
 _Azure Portal_
 
 Create a new registration:
 
-![New registration](/assets/img/sample/new_registration.png){: .shadow}
+![New registration](/assets/img/sample/outlook-integration/new_registration.png){: .shadow}
 _App registration window_
 
 On the next page, name the app as you want, choose supported account types as `Any Azure AD directory` and set the web redirect URI to:
 <https://login.microsoftonline.com/common/oauth2/nativeclient>
 
-![Webredirect](/assets/img/sample/webredirect.png)
+![Webredirect](/assets/img/sample/outlook-integration/webredirect.png)
 _The registration page_
 
 You've registered an app and now you should pay attention on two tokens that will be required to use the API. 
 You can find them in `App registration`, then choose your app and click on `Overview` on the left toolbar.
 
-![Required tokens](/assets/img/sample/required_tokens.png){: .shadow}
+![Required tokens](/assets/img/sample/outlook-integration/required_tokens.png){: .shadow}
 _App overview page_
 
 Also you need to generate a secret key.
 
-![Left toolbar](/assets/img/sample/left_toolbar.png){: .shadow}
+![Left toolbar](/assets/img/sample/outlook-integration/left_toolbar.png){: .shadow}
 _Toolbar_
 
 Then click on `new client secret`, fill the description and set expiration. A new line will be appear under Client secret section.
@@ -68,7 +68,7 @@ Then click on `new client secret`, fill the description and set expiration. A ne
 
 Now click on `API permissions` on the left toolbar and add a permisions.
 
-![API permissions](/assets/img/sample/api_permissions.png){: .shadow}
+![API permissions](/assets/img/sample/outlook-integration/api_permissions.png){: .shadow}
 _Microsoft Graph API_
 
 After you've done it, don't forget to grant admin consent.
